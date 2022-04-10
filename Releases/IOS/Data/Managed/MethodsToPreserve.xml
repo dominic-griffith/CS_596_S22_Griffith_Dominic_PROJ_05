@@ -1,0 +1,44 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="SwitchPointCloudVisualizationMode">
+			<method name="SwitchVisualizationMode"/>
+		</type>
+		<type fullname="UnityEngine.XR.ARFoundation.Samples.AnchorCreator">
+			<method name="RemoveAllAnchors"/>
+			<method name="RemoveAllAnchors"/>
+		</type>
+		<type fullname="UnityEngine.XR.ARFoundation.Samples.ARSceneSelectUI">
+			<method name="ARKitGeoAnchorsButtonPressed"/>
+			<method name="BasicImageTrackingButtonPressed"/>
+			<method name="BasicLightEstimationButtonPressed"/>
+			<method name="CameraGrainButtonPressed"/>
+			<method name="ConfigChooserButtonPressed"/>
+			<method name="DebugMenuButtonPressed"/>
+			<method name="HDRLightEstimationButtonPressed"/>
+			<method name="InputSystemButtonPressed"/>
+			<method name="LightEstimationMenuButtonPressed"/>
+			<method name="MultiImagesTrackingButtonPressed"/>
+			<method name="SessionRecordingButtonPressed"/>
+			<method name="ThermalStateButtonPressed"/>
+		</type>
+		<type fullname="UnityEngine.XR.ARFoundation.Samples.CpuImageSample">
+			<method name="CycleTransformation"/>
+		</type>
+		<type fullname="UnityEngine.XR.ARFoundation.Samples.CustomConfigurationChooser">
+			<method name="OnDepthModeDropdownValueChanged"/>
+		</type>
+		<type fullname="UnityEngine.XR.ARFoundation.Samples.InputSystem_PlaceOnPlane">
+			<method name="AddObject"/>
+		</type>
+		<type fullname="UnityEngine.XR.ARFoundation.Samples.PlaneDetectionController">
+			<method name="TogglePlaneDetection"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.XR.ARFoundation" ignoreIfMissing="1">
+		<type fullname="UnityEngine.XR.ARFoundation.ToolButton">
+			<method name="HighlightButton"/>
+			<method name="HighlightButton"/>
+			<method name="HighlightButton"/>
+		</type>
+	</assembly>
+</linker>
